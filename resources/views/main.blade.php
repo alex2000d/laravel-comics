@@ -3,7 +3,7 @@
 
 
 @section('content')
-<div class="jumbotron">
+<div class="jumbotron" style="background-image: url('{{ Vite::asset('resources/img/jumbotron.jpg') }}');">
     <span class="badge text-bg-primary rounded-0 px-4 py-2">
         <h3>CURRENT SERIES</h3>
     </span>
