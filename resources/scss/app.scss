@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+.image img {
+    max-width: 40px;
+}
+
+span {
+    padding-right: 90px;
+}
+
+.z-index {
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron {
+    background-image: url('../src/assets/img/jumbotron.jpg');
+    background-size: cover;
+    height: 300px;
+    position: relative;
+
+    .badge {
+        position: absolute;
+        bottom: -25px;
+        left: 90px;
+    }
+}
