@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main');
-});
+   $movies = config('db.movies');
+   
+    return view('main', compact('movies'));
+})->name('homepage');
